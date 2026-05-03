@@ -17,11 +17,11 @@ export default function Dashboard({ chitId, onBack, user, onLogout }) {
 
   const TOTAL_MONTHS = 30;
   const BEFORE_AMOUNTS = [
-    17700, 17700, 17500, 17500, 17300, 17300, 17100, 17100, 16800, 16800, 16500,
-    16500, 16000, 16000, 15500, 15000, 14500, 14000, 13500, 13000, 12500, 12000,
-    11500, 11000, 10500, 9500, 9000, 9000, 9000, 19500,
+    13000, 13000, 13000, 13000, 13000, 13000, 13000, 13000, 13000, 13000, 13000,
+    13000, 13000, 13000, 13000, 13000, 13000, 13000, 13000, 13000, 13000, 13000,
+    13000, 13000, 13000, 13000, 13000, 13000, 13000, 13000,
   ];
-  const AFTER_AMOUNT = 19500;
+  const AFTER_AMOUNT = 13000;
 
   const [members, setMembers] = useState([]);
   const [config, setConfig] = useState(null);
@@ -701,7 +701,7 @@ export default function Dashboard({ chitId, onBack, user, onLogout }) {
         );
       })()}
 
-      {/* ---- STICKY TOP BAR ---- */}}
+      {/* ---- STICKY TOP BAR ---- */}
       <div className="db-topbar">
         <button className="db-back-btn" onClick={onBack}>
           Back to Overview
